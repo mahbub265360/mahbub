@@ -1,0 +1,199 @@
+ 
+.about-content-html{
+    background: url(./image/bg.jpg) center no-repeat;
+    padding: 200px ;
+    background-size: cover;
+     
+    position: relative;
+    z-index: 1;
+}
+.about-content-html::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .50);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.about-content-html h1{
+    font-size: 60px ;
+    margin-bottom: 20px;
+  
+}
+.about-content-html span a{
+    color: aliceblue;
+    text-decoration: none ;
+}
+.about-content-html span a:hover{
+    color: #e73a3e;
+}
+.about-content-html span{
+    color: aliceblue;
+    font-size: 20px ;
+}
+
+.mahbub-aboout-section{}
+.experianc-imag img{
+    max-width: 400px ;
+    height: auto;
+    position: relative;
+
+}
+ .experianc-imag img{
+     margin-top: 60px ;
+ }
+ .experianc{
+    margin-top: 60px ;
+ }
+.experianc-imag img:nth-child(2){
+    position: absolute;
+    left: 180px ;
+    top: 125px ;
+    bottom:  0 ;
+    right: 0;
+     
+}
+.experianc{
+    position: absolute;
+    padding: 40px ;
+    background-color: #fff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09) ;
+    width: 400px ;
+    height: 130px ;
+    left: 60px ;
+     top: 265px ;
+     right: 0;
+     bottom: 40px ;
+    border-left: 2px solid #e73a3e;
+}
+.experianc h4{
+    font-size: 50px ;
+    margin-right: 15px ;
+}
+.experianc p{
+    font-size: 25px ;
+}
+
+/*clinte practice */
+
+.clinte-item-p{
+    box-shadow: 10px  10px 20px 0 rgba(236, 240, 241,1.0) ;
+   
+
+}
+.clinte-p{
+    position: relative;
+    padding: 20px ;
+    background-color: aqua;
+
+}
+.clinte-p img{
+    width: 100px ;
+    margin-right: 20px ;
+    margin-bottom: 30px ;
+}
+
+.clinte-p h4{
+    display: block;
+    margin-right: 15px ;
+    margin-top: 15px ;
+    color: #e73a3e;
+    font-size: 18px ;
+}
+.clinte-p span{
+    margin-top: 50px ;
+    margin-left: -130px ;
+}
+ .clinte-item-p p{
+     margin: 10px 15px ;
+     padding: 20px ;
+ }
+.clinte-item-p .icon-p{
+    position: absolute;
+    left:  ;
+    right: 30px ;
+    
+    bottom: 0;
+    top: 0;
+    font-size: 50px ;
+}
+
+/* team */
+.tem-member{}
+.member-imag{
+    position: relative;
+ 
+}
+.member-imag img{
+    max-width: 270px ;
+}
+.member-icon{
+     position: absolute;
+      
+     right: 0;
+     bottom: 0; 
+     left: 0; 
+     padding: 0;   
+     margin: 0;
+}
+.member-icon ul{
+    list-style: none;
+    text-align:center ;
+    padding-left: 0;
+    margin-bottom: 20px ;
+    
+}
+.member-icon ul li{
+    display: inline-block;
+    transition: .5s ease-in-out;
+    transform: translateY(45px );
+    opacity: 0;
+    visibility: hidden;
+     
+}
+.member-icon ul li a{
+    display: block;
+    font-size: 20px ;
+    width: 40px ;
+    height: 40px ;
+    background: #fff ;
+    border-radius: 50% ;
+    line-height: 40px ;
+    color: #222;
+    transition: .5s;
+}
+.member-imag:hover .member-icon ul li{
+    opacity: 1;
+    visibility: visible;
+     transform: translateY(0);
+}
+.member-imag  .member-icon ul li:nth-child(1){
+    transition-delay:.2s ;
+}
+.member-imag  .member-icon ul li:nth-child(2){
+    transition-delay:.3s;
+}
+.member-imag  .member-icon ul li:nth-child(3){
+    transition-delay: .4s;
+}
+.member-imag  .member-icon ul li:nth-child(4){
+    transition-delay: .5s ;
+}
+.member-icon ul li a:hover{
+    color: #fff;
+    background-color: #e73a3e;
+}
+
+.member-content{
+    margin-top: 25px ;
+}
+
+.member-content h4{
+    font-size: 30px ;
+    color: #e73a3e;
+}
+.member-content p{
+    color: #666;
+}
